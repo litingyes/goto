@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^17.8.1
     version: 17.8.1(commitizen@4.3.0)(inquirer@8.2.6)
   '@iconify/json':
-    specifier: ^2.2.147
-    version: 2.2.147
+    specifier: ^2.2.152
+    version: 2.2.152
   '@nuxt/devtools':
     specifier: ^0.8.5
     version: 0.8.5(nuxt@3.8.2)(vite@4.5.0)
@@ -1718,8 +1718,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify/json@2.2.147:
-    resolution: {integrity: sha512-VTW1vVivOq5RVcZu7xqCXWptGH7fo6VPsUxT5QBlbBS042859YZnK1JTXHJu4InMuTwQC/3KLP+InJJ5kawOGg==}
+  /@iconify/json@2.2.152:
+    resolution: {integrity: sha512-CV1qk51ydDJ+dooir8/OBOZw9/mfzTx7GY7U9OmnlH3r5+ErTdGjhQ1b+PrB8nX/RQ5AVkC9n/9l7yw1qJZqtw==}
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.1
@@ -1919,7 +1919,7 @@ packages:
     resolution: {integrity: sha512-RpRbD6PnaQIUl+p8MoH7sl2CHyMofCO0abOV+0VulqKW84+0nRWnj0bYFQELTN5HpNvzWAV8pRN6Fjx9ZLOS0g==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      lru-cache: 10.0.1
+      lru-cache: 10.1.0
       socks: 2.7.1
     dev: true
 
@@ -1935,7 +1935,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@npmcli/promise-spawn': 6.0.2
-      lru-cache: 10.0.1
+      lru-cache: 10.1.0
       npm-pick-manifest: 9.0.0
       proc-log: 3.0.0
       promise-inflight: 1.0.1
@@ -4743,7 +4743,7 @@ packages:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.2
       glob: 10.3.3
-      lru-cache: 10.0.1
+      lru-cache: 10.1.0
       minipass: 7.0.3
       minipass-collect: 1.0.2
       minipass-flush: 1.0.5
@@ -7057,7 +7057,7 @@ packages:
     resolution: {integrity: sha512-ICclEpTLhHj+zCuSb2/usoNXSVkxUSIopre+b1w8NDY9Dntp9LO4vLdHYI336TH8sAqwrRgnSfdkBG2/YpisHA==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      lru-cache: 10.0.1
+      lru-cache: 10.1.0
     dev: true
 
   /html-tags@3.3.1:
@@ -8110,11 +8110,6 @@ packages:
   /longest@2.0.1:
     resolution: {integrity: sha512-Ajzxb8CM6WAnFjgiloPsI3bF+WCxcvhdIG3KNA2KN962+tdBsHcuQ4k4qX/EcS/2CRkcc0iAkR956Nib6aXU/Q==}
     engines: {node: '>=0.10.0'}
-    dev: true
-
-  /lru-cache@10.0.1:
-    resolution: {integrity: sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==}
-    engines: {node: 14 || >=16.14}
     dev: true
 
   /lru-cache@10.1.0:
@@ -9332,7 +9327,7 @@ packages:
     resolution: {integrity: sha512-MkhCqzzBEpPvxxQ71Md0b1Kk51W01lrYvlMzSUaIzNsODdd7mqhiimSZlr+VegAz5Z6Vzt9Xg2ttE//XBhH3EQ==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 10.0.1
+      lru-cache: 10.1.0
       minipass: 7.0.3
     dev: true
 
